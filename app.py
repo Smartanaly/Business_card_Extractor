@@ -44,7 +44,7 @@ if os.path.exists(logo_path):
     st.sidebar.image(logo, use_column_width=True)
 
 # Title
-st.markdown('<h1 class="title">Business Card Extractor</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="text-align: center; color: #1E88E5;">Business Card Extractor</h1>', unsafe_allow_html=True)
 
 # Configuration
 IMAGE_FOLDER = "uploaded_images"
